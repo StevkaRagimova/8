@@ -8,19 +8,18 @@
   display: grid;
   grid-area: 1/-1;
   z-index: 3;
-  opacity: 0.8;
-  cursor: pointer;
+
 }
 
 .cover::before {
-  opacity: 0.8;
-  position: absolute;
+  content: " ";
+  background: rgb(42 44 47 / 30%);
+  grid-area: 1/-1;  
 }
 
 
 .cover:hover::before {
-  opacity: 0.3;
-  background: rgb(42 44 47 / 30%);
+  background: rgb(42 44 47 / 80%);
   position: absolute;
 }
 
