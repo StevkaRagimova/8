@@ -14,7 +14,7 @@
 .cover::before {
   content: " ";
   background: rgb(42 44 47 / 30%);
-  grid-area: 1/-1;  
+  grid-area: 1/-1;
 }
 
 
