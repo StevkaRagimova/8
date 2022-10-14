@@ -20,7 +20,6 @@
 
 .cover:hover::before {
   background: rgb(42 44 47 / 80%);
-  position: absolute;
 }
 
 
