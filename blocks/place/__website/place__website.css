@@ -10,7 +10,6 @@
     .place__website {
         width: calc(100% - 440px);
         padding-left: 32px;
-
     }
 }
 
@@ -18,17 +17,13 @@
     .place__website {
         width: calc(100% - 340px);
         padding-left: 28px;
-
     }
 }
 
 @media screen and (max-width: 620px) {
     .place__website {
-
         padding-left: 16px;
         width: 100%;
         margin: 30px 0;
-
-
     }
 }

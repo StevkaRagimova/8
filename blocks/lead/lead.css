@@ -2,7 +2,6 @@
     max-width: 100%;
     padding: 0 148px;
     margin-bottom: 91px;
-
 }
 
 @media screen and (max-width: 1279px) {
@@ -16,13 +15,19 @@
         padding: 0;
 
         margin-bottom: 88px;
-
     }
-
 }
 
 @media screen and (max-width: 767px) {
     .lead {
         margin-bottom: 64px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        line-height: 1.25;
+        max-width: 288px;
+        font-size: 16px;
+        margin: 0 auto 40px;
     }
 }
